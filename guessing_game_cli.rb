@@ -3,6 +3,7 @@ def run_guessing_game
   hidden_number = rand(6)+1
   prompt_user
   guessed_number = get_user_input
+  case guessed_number
 end
 
 def prompt_user
