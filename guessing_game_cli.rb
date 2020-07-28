@@ -9,7 +9,7 @@ def run_guessing_game
   when 'exit'
     exit
   else
-    puts "Sorry! The computer guessed #{hidden_number}"
+    puts "Sorry! The computer guessed #{hidden_number}."
 end
 
 def prompt_user
