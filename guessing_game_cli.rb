@@ -4,3 +4,6 @@ def run_guessing_game
   prompt_user
   guessed_number = get_user_input
 end
+
+def prompt_user
+  puts ""
