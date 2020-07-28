@@ -22,5 +22,5 @@ def get_user_input
 end
 
 def guess_exit
-  puts ""
+  puts "Goodbye!"
 end
