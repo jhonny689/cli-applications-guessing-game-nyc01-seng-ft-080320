@@ -4,6 +4,9 @@ def run_guessing_game
   prompt_user
   guessed_number = get_user_input
   case guessed_number
+  when hidden_number
+    
+  when
 end
 
 def prompt_user
@@ -11,5 +14,5 @@ def prompt_user
 end
 
 def get_user_input
-  gets.
+  gets.chomp
 end
