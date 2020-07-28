@@ -7,7 +7,7 @@ def run_guessing_game
   when hidden_number
     puts "You guessed the correct number"
   when 'exit'
-    exit
+    guess_exit
   else
     puts "Sorry! The computer guessed #{hidden_number}."
   end
@@ -19,4 +19,8 @@ end
 
 def get_user_input
   gets.chomp
+end
+
+def guess_exit
+  puts ""
 end
