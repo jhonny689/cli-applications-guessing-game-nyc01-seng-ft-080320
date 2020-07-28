@@ -5,7 +5,7 @@ def run_guessing_game
   guessed_number = get_user_input
   case guessed_number
   when hidden_number
-    puts "You guessed the correct number"
+    puts "You guessed the correct number!"
   when 'exit'
     guess_exit
   else
