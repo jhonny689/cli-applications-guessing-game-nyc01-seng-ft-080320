@@ -8,7 +8,8 @@ def run_guessing_game
     puts "You guessed the correct number"
   when 'exit'
     exit
-  when ''
+  else
+    puts "Sorry! The computer guessed #{hidden_number}"
 end
 
 def prompt_user
