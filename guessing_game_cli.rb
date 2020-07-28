@@ -5,8 +5,8 @@ def run_guessing_game
   guessed_number = get_user_input
   case guessed_number
   when hidden_number
-    
-  when
+    puts "You guessed the correct number"
+  when ''
 end
 
 def prompt_user
