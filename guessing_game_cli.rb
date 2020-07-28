@@ -5,7 +5,7 @@ def run_guessing_game
   prompt_user
   guessed_number = get_user_input
   case guessed_number
-  when hidden_number
+  when hidden_number.to_s
     binding.pry
     puts "You guessed the correct number!"
   when 'exit'
